@@ -25,3 +25,10 @@ trojan 클라이언트가 서버에 연결될 때, 마치 HTTPS와 같이 TLS ha
 설치는 간단하다. git clone한 뒤, 직접 컴파일해서 쓰거나 해당 github repository에 release page에 가서 자신의 machine에 맞는 바이너리를 다운로드하면 된다. 
 
 # Trojan configuration
+
+일단 Trojan 서버로 사용될 VPS를 준비한다. Amazon Lightsail, Linode, Vultr, Bandwagon, Oracle Free Instance 등등 우분투만 설치가 가능하고, GFW가
+
+기본적으로 ip대역을 차단하지 않은 업체의 VPS라면 모두 가능하다.
+
+이미 우분투가 설치된 VPS가 준비되었다고 가정하고 Trojan의 설정을 해보도록 하자.
+
